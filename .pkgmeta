@@ -1,0 +1,8 @@
+package-as: VideoQuestHelperPackage
+enable-nolib-creation: no
+move-folders:
+    VideoQuestHelperPackage/VideoQuestHelper: VideoQuestHelper
+ignore:
+    - README.md
+    - VideoQuestHelperWindows
+    - gallery

@@ -17,9 +17,7 @@ Stuck on a quest in **World of Warcraft: Forever (1.60.1)**? Open its details in
 
 The button opens a saved walkthrough when one is available. For other quests, it opens a YouTube search using the quest name. Automatic opening is enabled by default in this Windows package. If you previously chose manual mode, use `/vqh auto` to switch it back on.
 
-## Addon-only download
-
-**VideoQuestHelper-0.2.7.zip** contains the addon for WoW Forever 1.60.1. In the default mode the button displays a link to copy. Type `/vqh manual` to return to this mode at any time.
+For the addon-only version, see the [CurseForge project](https://www.curseforge.com/wow/addons/video-quest-helper).
 
 ![YouTube Tutorial button on Camping 101: Mining](gallery/youtube-tutorial-quest-log.png)
 
@@ -31,5 +29,3 @@ Created by **Razer Dev Studio / Denis Aleksandrov**. Video Quest Helper is free 
 - [GitHub Issues](https://github.com/sobata1995-source/VideoQuestHelper/issues) for bug reports
 - [Support on Patreon](https://www.patreon.com/c/DenisAleksandrov/membership)
 - [Leave a tip via Revolut](https://revolut.me/denisar2z)
-
-

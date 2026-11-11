@@ -13,9 +13,9 @@ Stuck on a quest in **World of Warcraft: Forever (1.60.1)**? Open its details in
 1. Download [VideoQuestHelper-Windows-0.2.7.zip](https://github.com/sobata1995-source/VideoQuestHelper/releases/download/v0.2.7/VideoQuestHelper-Windows-0.2.7.zip) and extract the entire archive.
 2. Copy the extracted **VideoQuestHelper** folder into `World of Warcraft\_forever_\Interface\AddOns`.
 3. Open the extracted **VideoQuestHelperWindows** folder and run **Install-Windows-Helper.cmd once**. Confirm when prompted. The helper starts in the background immediately and starts automatically each time you sign in to Windows. You can close the installer window after setup finishes.
-4. In WoW Forever, type **`/vqh auto` once**. Open a quest in the journal and click **YouTube Tutorial**. Use Windowed or Windowed (Fullscreen) mode.
+4. Open WoW Forever. If it is already running, type `/reload`. Open a quest in the journal and click **YouTube Tutorial**. Use Windowed or Windowed (Fullscreen) mode.
 
-The button opens a saved walkthrough when one is available. For other quests, it opens a YouTube search using the quest name. The installer and `/vqh auto` are one-time setup steps.
+The button opens a saved walkthrough when one is available. For other quests, it opens a YouTube search using the quest name. Automatic opening is enabled by default in this Windows package. If you previously chose manual mode, use `/vqh auto` to switch it back on.
 
 ## Addon-only download
 
@@ -31,4 +31,5 @@ Created by **Razer Dev Studio / Denis Aleksandrov**. Video Quest Helper is free 
 - [GitHub Issues](https://github.com/sobata1995-source/VideoQuestHelper/issues) for bug reports
 - [Support on Patreon](https://www.patreon.com/c/DenisAleksandrov/membership)
 - [Leave a tip via Revolut](https://revolut.me/denisar2z)
+
 

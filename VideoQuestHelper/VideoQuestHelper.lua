@@ -58,7 +58,9 @@ end
 
 local function showLink(id, openFromButton)
     local url, title, video, seconds, query = buildLink(id)
-    if openFromButton and videos and videos.autoOpen then
+    local autoOpen = videos and videos.autoOpen
+    if autoOpen == nil then autoOpen = addon.AutoOpenByDefault end
+    if openFromButton and autoOpen then
         if popup then popup:Hide() end
         if video then
             addon.SignalVideo(video, seconds)

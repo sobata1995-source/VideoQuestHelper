@@ -20,5 +20,5 @@ if errorlevel 1 (
     exit /b 1
 )
 
-echo Setup complete. In WoW, type /vqh auto once to enable one-click opening.
+echo Setup complete. Open WoW Forever, or type /reload if it is already running.
 pause

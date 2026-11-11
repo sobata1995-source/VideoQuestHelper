@@ -8,11 +8,18 @@ Stuck on a quest in **World of Warcraft: Forever (1.60.1)**? Open its details in
 - **Other quests:** Get a YouTube search using the quest name and “WoW Forever”. The search works even when the catalog has no video for that quest.
 - **Your own links:** Save a walkthrough with `/vqh set QUEST_ID VIDEO_ID`. Use `/vqh clear QUEST_ID` to remove your saved link.
 
-## Install and use
+## Windows setup for one-click opening
 
-Extract the [addon ZIP](https://github.com/sobata1995-source/VideoQuestHelper/releases/latest) into `World of Warcraft\_forever_\Interface\AddOns`. The button selects the link so you can copy it and paste it into your browser.
+1. Download [VideoQuestHelper-Windows-0.2.7.zip](https://github.com/sobata1995-source/VideoQuestHelper/releases/download/v0.2.7/VideoQuestHelper-Windows-0.2.7.zip) and extract the entire archive.
+2. Copy the extracted **VideoQuestHelper** folder into `World of Warcraft\_forever_\Interface\AddOns`.
+3. Open the extracted **VideoQuestHelperWindows** folder and run **Install-Windows-Helper.cmd once**. Confirm when prompted. The helper starts in the background immediately and starts automatically each time you sign in to Windows. You can close the installer window after setup finishes.
+4. In WoW Forever, type **`/vqh auto` once**. Open a quest in the journal and click **YouTube Tutorial**. Use Windowed or Windowed (Fullscreen) mode.
 
-For one-click opening on Windows, download and run the optional **VideoQuestHelper.exe** from the release, then type `/vqh auto` in WoW. Use Windowed or Windowed (Fullscreen). When you click the button, the addon briefly displays a small colored signal. The helper reads it while WoW is in the foreground and opens the video or search in your default browser. Use `/vqh manual` to switch back to copying links.
+The button opens a saved walkthrough when one is available. For other quests, it opens a YouTube search using the quest name. The installer and `/vqh auto` are one-time setup steps.
+
+## Addon-only download
+
+**VideoQuestHelper-0.2.7.zip** contains the addon for WoW Forever 1.60.1. In the default mode the button displays a link to copy. Type `/vqh manual` to return to this mode at any time.
 
 ![YouTube Tutorial button on Camping 101: Mining](gallery/youtube-tutorial-quest-log.png)
 
@@ -24,3 +31,4 @@ Created by **Razer Dev Studio / Denis Aleksandrov**. Video Quest Helper is free 
 - [GitHub Issues](https://github.com/sobata1995-source/VideoQuestHelper/issues) for bug reports
 - [Support on Patreon](https://www.patreon.com/c/DenisAleksandrov/membership)
 - [Leave a tip via Revolut](https://revolut.me/denisar2z)
+

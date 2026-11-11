@@ -2,6 +2,8 @@
 
 # Video Quest Helper
 
+By **Razer Dev Studio / Denis Aleksandrov** · [Discord](https://discord.gg/Pr5eMAUqt) · [Patreon](https://www.patreon.com/c/DenisAleksandrov/membership) · [Revolut](https://revolut.me/denisar2z)
+
 Stuck on a quest in **World of Warcraft: Forever (1.60.1)**? Open its details in the quest log and click **YouTube Tutorial**.
 
 - **Quest with a saved video:** Get a direct link to the walkthrough, with a timestamp where available. The starter catalog includes the Cozy Sleeping Bag chain and The Horn of Xelthos.
@@ -19,7 +21,11 @@ The button opens a saved walkthrough when one is available. For other quests, it
 
 For the addon-only version, see the [CurseForge project](https://www.curseforge.com/wow/addons/video-quest-helper).
 
-![YouTube Tutorial button on Camping 101: Mining](gallery/youtube-tutorial-quest-log.png)
+## Gallery
+
+[![YouTube Tutorial button in the WoW Forever quest log](gallery/youtube-tutorial-quest-log.png)](gallery/youtube-tutorial-quest-log.png)
+
+The **YouTube Tutorial** button appears in the quest details for *Camping 101: Mining*.
 
 ## Contact and support
 

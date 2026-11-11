@@ -1,0 +1,9 @@
+## Interface: 16001
+## Title: Video Quest Helper
+## Notes: YouTube walkthrough links for WoW Forever quests.
+## Version: 0.2.7
+## SavedVariables: VideoQuestHelperDB
+
+Catalog.lua
+Bridge.lua
+VideoQuestHelper.lua
